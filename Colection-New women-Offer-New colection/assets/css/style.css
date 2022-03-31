@@ -100,6 +100,8 @@ img{
     margin: auto;
     background-color: var(--dark-color);
 }
+
+/*=====Colection=====*/
 .collection_container{
     row-gap: 2rem;
     justify-content: center;
@@ -137,11 +139,13 @@ img{
     transform: translateY(-.5rem);
 }
 
+/*=====Women sneakers=====*/
 .women_container{
     row-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+/*=====Offer=====*/
 .offer_container{
     grid-template-columns: 55% 45%;
     column-gap: 0;
@@ -167,6 +171,7 @@ img{
     width: 153px;
 }
 
+/*=====New colection=====*/
 .new_container{
     row-gap: 2rem;
 }
